@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85CB8BF5-A905-4F5E-8E4D-46AD648079CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lorenz Attractor Cocoa</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4E1A0B902566FC2E59EED85D1A972D18C8BFA542</key>
+		<string>https://github.com/jonelf/Lorenz-Attractor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lorenz Attractor Cocoa.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4E1A0B902566FC2E59EED85D1A972D18C8BFA542</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jonelf/Lorenz-Attractor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4E1A0B902566FC2E59EED85D1A972D18C8BFA542</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4E1A0B902566FC2E59EED85D1A972D18C8BFA542</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lorenz-Attractor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

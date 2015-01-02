@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC91F4B21A56EF86004B8B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91F4B11A56EF86004B8B4C /* AppDelegate.swift */; };
+		CC91F4B41A56EF86004B8B4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC91F4B31A56EF86004B8B4C /* Images.xcassets */; };
+		CC91F4B71A56EF86004B8B4C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC91F4B51A56EF86004B8B4C /* MainMenu.xib */; };
+		CC91F4C31A56EF86004B8B4C /* Lorenz_Attractor_CocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91F4C21A56EF86004B8B4C /* Lorenz_Attractor_CocoaTests.swift */; };
+		CC91F4CF1A56EFEE004B8B4C /* LorenzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91F4CE1A56EFEE004B8B4C /* LorenzView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC91F4BD1A56EF86004B8B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC91F4A41A56EF86004B8B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC91F4AB1A56EF86004B8B4C;
+			remoteInfo = "Lorenz Attractor Cocoa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC91F4AC1A56EF86004B8B4C /* Lorenz Attractor Cocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lorenz Attractor Cocoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC91F4B01A56EF86004B8B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC91F4B11A56EF86004B8B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC91F4B31A56EF86004B8B4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC91F4B61A56EF86004B8B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CC91F4BC1A56EF86004B8B4C /* Lorenz Attractor CocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lorenz Attractor CocoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC91F4C11A56EF86004B8B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC91F4C21A56EF86004B8B4C /* Lorenz_Attractor_CocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lorenz_Attractor_CocoaTests.swift; sourceTree = "<group>"; };
+		CC91F4CE1A56EFEE004B8B4C /* LorenzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LorenzView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC91F4A91A56EF86004B8B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC91F4B91A56EF86004B8B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC91F4A31A56EF86004B8B4C = {
+			isa = PBXGroup;
+			children = (
+				CC91F4AE1A56EF86004B8B4C /* Lorenz Attractor Cocoa */,
+				CC91F4BF1A56EF86004B8B4C /* Lorenz Attractor CocoaTests */,
+				CC91F4AD1A56EF86004B8B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC91F4AD1A56EF86004B8B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC91F4AC1A56EF86004B8B4C /* Lorenz Attractor Cocoa.app */,
+				CC91F4BC1A56EF86004B8B4C /* Lorenz Attractor CocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC91F4AE1A56EF86004B8B4C /* Lorenz Attractor Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				CC91F4B11A56EF86004B8B4C /* AppDelegate.swift */,
+				CC91F4B31A56EF86004B8B4C /* Images.xcassets */,
+				CC91F4B51A56EF86004B8B4C /* MainMenu.xib */,
+				CC91F4AF1A56EF86004B8B4C /* Supporting Files */,
+				CC91F4CE1A56EFEE004B8B4C /* LorenzView.swift */,
+			);
+			path = "Lorenz Attractor Cocoa";
+			sourceTree = "<group>";
+		};
+		CC91F4AF1A56EF86004B8B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC91F4B01A56EF86004B8B4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC91F4BF1A56EF86004B8B4C /* Lorenz Attractor CocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC91F4C21A56EF86004B8B4C /* Lorenz_Attractor_CocoaTests.swift */,
+				CC91F4C01A56EF86004B8B4C /* Supporting Files */,
+			);
+			path = "Lorenz Attractor CocoaTests";
+			sourceTree = "<group>";
+		};
+		CC91F4C01A56EF86004B8B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC91F4C11A56EF86004B8B4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC91F4AB1A56EF86004B8B4C /* Lorenz Attractor Cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC91F4C61A56EF86004B8B4C /* Build configuration list for PBXNativeTarget "Lorenz Attractor Cocoa" */;
+			buildPhases = (
+				CC91F4A81A56EF86004B8B4C /* Sources */,
+				CC91F4A91A56EF86004B8B4C /* Frameworks */,
+				CC91F4AA1A56EF86004B8B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lorenz Attractor Cocoa";
+			productName = "Lorenz Attractor Cocoa";
+			productReference = CC91F4AC1A56EF86004B8B4C /* Lorenz Attractor Cocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC91F4BB1A56EF86004B8B4C /* Lorenz Attractor CocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC91F4C91A56EF86004B8B4C /* Build configuration list for PBXNativeTarget "Lorenz Attractor CocoaTests" */;
+			buildPhases = (
+				CC91F4B81A56EF86004B8B4C /* Sources */,
+				CC91F4B91A56EF86004B8B4C /* Frameworks */,
+				CC91F4BA1A56EF86004B8B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC91F4BE1A56EF86004B8B4C /* PBXTargetDependency */,
+			);
+			name = "Lorenz Attractor CocoaTests";
+			productName = "Lorenz Attractor CocoaTests";
+			productReference = CC91F4BC1A56EF86004B8B4C /* Lorenz Attractor CocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC91F4A41A56EF86004B8B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jonas Elfström";
+				TargetAttributes = {
+					CC91F4AB1A56EF86004B8B4C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CC91F4BB1A56EF86004B8B4C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CC91F4AB1A56EF86004B8B4C;
+					};
+				};
+			};
+			buildConfigurationList = CC91F4A71A56EF86004B8B4C /* Build configuration list for PBXProject "Lorenz Attractor Cocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC91F4A31A56EF86004B8B4C;
+			productRefGroup = CC91F4AD1A56EF86004B8B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC91F4AB1A56EF86004B8B4C /* Lorenz Attractor Cocoa */,
+				CC91F4BB1A56EF86004B8B4C /* Lorenz Attractor CocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC91F4AA1A56EF86004B8B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC91F4B41A56EF86004B8B4C /* Images.xcassets in Resources */,
+				CC91F4B71A56EF86004B8B4C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC91F4BA1A56EF86004B8B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC91F4A81A56EF86004B8B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC91F4CF1A56EFEE004B8B4C /* LorenzView.swift in Sources */,
+				CC91F4B21A56EF86004B8B4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC91F4B81A56EF86004B8B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC91F4C31A56EF86004B8B4C /* Lorenz_Attractor_CocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC91F4BE1A56EF86004B8B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC91F4AB1A56EF86004B8B4C /* Lorenz Attractor Cocoa */;
+			targetProxy = CC91F4BD1A56EF86004B8B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC91F4B51A56EF86004B8B4C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC91F4B61A56EF86004B8B4C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC91F4C41A56EF86004B8B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC91F4C51A56EF86004B8B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC91F4C71A56EF86004B8B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lorenz Attractor Cocoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC91F4C81A56EF86004B8B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lorenz Attractor Cocoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC91F4CA1A56EF86004B8B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lorenz Attractor CocoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lorenz Attractor Cocoa.app/Contents/MacOS/Lorenz Attractor Cocoa";
+			};
+			name = Debug;
+		};
+		CC91F4CB1A56EF86004B8B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lorenz Attractor CocoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lorenz Attractor Cocoa.app/Contents/MacOS/Lorenz Attractor Cocoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC91F4A71A56EF86004B8B4C /* Build configuration list for PBXProject "Lorenz Attractor Cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC91F4C41A56EF86004B8B4C /* Debug */,
+				CC91F4C51A56EF86004B8B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC91F4C61A56EF86004B8B4C /* Build configuration list for PBXNativeTarget "Lorenz Attractor Cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC91F4C71A56EF86004B8B4C /* Debug */,
+				CC91F4C81A56EF86004B8B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC91F4C91A56EF86004B8B4C /* Build configuration list for PBXNativeTarget "Lorenz Attractor CocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC91F4CA1A56EF86004B8B4C /* Debug */,
+				CC91F4CB1A56EF86004B8B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC91F4A41A56EF86004B8B4C /* Project object */;
+}
